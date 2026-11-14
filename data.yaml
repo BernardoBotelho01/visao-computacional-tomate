@@ -1,0 +1,14 @@
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['Ripe Tomato', 'Unripe Tomato']
+
+roboflow:
+  workspace: costom3
+  project: tomato-detection-6n8pb
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/costom3/tomato-detection-6n8pb/dataset/6
